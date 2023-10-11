@@ -17,6 +17,7 @@ FetchContent_MakeAvailable(doctest)
 
 set(EXES
   binary_search
+  boyer_moore
 )
 
 foreach(EXE ${EXES})
